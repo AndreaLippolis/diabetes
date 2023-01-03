@@ -1,0 +1,39 @@
+<?php
+
+$tabella_raccomandazioni = array(
+    "Osteoporosi" => array(
+      "Evitare il consumo eccessivo di sale e alimenti trattati con il sale",
+      "Includere fonti di calcio nella dieta, come latte e latticini, verdure a foglia verde scuro, frutta secca con guscio duro (come mandorle e noci), e alimenti fortificati con calcio, come i cereali",
+      "Includere fonti di vitamina D nella dieta, come il pesce grasso, uova, e prodotti fortificati come il latte e il cereali",
+      "Includere fonti di vitamina K nella dieta, come verdure a foglia verde scuro, cereali integrali, carne di pollame e uova",
+      "Includere fonti di proteine nella dieta, come carne, pesce, uova e fagioli"
+    ),
+    "Rischi cardiovascolari" => array(
+      "Limitate l'assunzione di grassi saturi, presenti in alimenti come carne rossa, latticini interi, e fritti",
+      "Limitate l'assunzione di colesterolo, presente in alimenti come carne rossa, latticini interi, uova, e frutti di mare",
+      "Scegliere grassi monoinsaturi e polinsaturi, come quelli presenti in olio di oliva, avocado, e frutta secca",
+      "Includere fonti di fibre nella dieta, come verdure, frutta, cereali integrali, e fagioli",
+      "Limitate l'assunzione di sodio, presente in alimenti trattati, snack, e cibi in scatola"
+    ),
+    "Diabete di tipo 2" => array(
+      "- Evita di consumare grandi quantità di zuccheri semplici, come quelli presenti nei dolciumi e nei prodotti industriali",
+      "- Scegli fonti di carboidrati complessi, come cereali integrali, legumi e verdure, che rilasciano energia in modo più lento e stabile",
+      "- Includi proteine di qualità, come quelle presenti nella carne magra, nel pesce, nei latticini a basso contenuto di grassi e nei legumi, a ogni pasto",
+      "- Consuma grassi sani, come quelli presenti nell'olio d'oliva, nei semi e nei frutti secchi, moderatamente",
+      "- Bevi molta acqua e scegli bevande senza zucchero aggiunto"
+    ),
+    "Cancro" => array(
+      "- Scegli alimenti ricchi di fibre, come frutta, verdura, legumi e cereali integrali, che possono proteggere dal cancro al colon",
+      "- Consuma cibi ricchi di antiossidanti, come frutta e verdura di colore intenso, che possono proteggere dai danni delle cellule e prevenire il cancro",
+      "- Limita il consumo di carne rossa e lavorata, che potrebbero aumentare il rischio di cancro al colon",
+      "- Scegli fonti di proteine alternative, come il pesce, i pollami e i latticini a basso contenuto di grassi, e legumi",
+      "- Limita il consumo di alcol, che può aumentare il rischio di cancro al seno, al fegato, alla bocca e alla laringe"
+    )
+  );
+?>
+
+<form>
+  <label for="patologia">Seleziona la patologia a rischio:</label><br>
+  <input type="text" id="patologia" name="patologia"><br>
+  <input type="submit" value="Invia">
+</form>
